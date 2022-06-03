@@ -133,3 +133,18 @@ main{
     font-weight: 500;
     line-height: 1.6rem;
 }
+.main-currency-table{
+    width:70%;
+    min-width: 235px;
+    max-width: 500px;
+    height:360;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+.main-currency-table--title{
+    margin-bottom: 15px;
+    font-size:1.8rem;
+    font-weight: bold;
+    line-height:2.3rem;
+    color:#B5B0AC;
+}

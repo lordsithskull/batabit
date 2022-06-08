@@ -12,7 +12,7 @@
     --secondary-blue:#1A9AF7;
     --soft-blue:#E7F5FF;
     --Warm-black:#201E1C;
-    --Warm-black1:#282623;
+    --black:#211f1b;
     --grey:#BABABA;
     --off-white:#FAF8F7;
     --just-White:#FFFFFF;
@@ -281,4 +281,110 @@ main{
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.4rem;
+}
+.main-product-detail{
+    position: relative;    
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--black);  
+}
+.product-detail-batata-logo{    
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url('./assets/icons/logo-potato.svg');
+    
+}
+.product-detail--title{
+    width:90%;    
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;    
+}
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-weight:bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;    
+    color: var(--just-White);
+}
+ .product-detail--title {
+     margin-bottom: 20px;
+     font-size:1.4rem;
+     font-weight: 500;
+     line-height: 1.8rem;
+    color: #808080;
+} 
+.product-detail--card{
+    width:90%;
+    min-width: 288px;
+    max-width: 400px;
+    height:150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: valor(--black);
+    border-radius: 5px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.16);    
+}
+.products-cards--container .clock{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url('./assets/icons/clock.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products-cards--container .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url('./assets/icons/eye.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products-cards--container .money{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url('./assets/icons/dollar-sign.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products-cards--container .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image:url('./assets/icons/check-circle.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title {
+    margin-bottom: 15px;        
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;    
+    color: var(--just-White);
+}
+.product--card-body{    
+    width: 252px;
+    height: 54px;
+    font-size:1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }

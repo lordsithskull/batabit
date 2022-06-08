@@ -326,7 +326,7 @@ main{
     width:90%;
     min-width: 288px;
     max-width: 400px;
-    height:150px;
+    min-height:150px;
     margin: 15px auto;
     padding: 15px;
     background-color: valor(--black);

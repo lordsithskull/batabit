@@ -333,45 +333,26 @@ main{
     border-radius: 5px;
     box-shadow:0 4px 8px rgba(0, 0, 0, 0.16);    
 }
-.products-cards--container .clock{
+.products-cards--container .card--image {
     display: inline-block;
     width: 20px;
     height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products-cards--container .clock {
     background-image:url('./assets/icons/clock.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-.products-cards--container .eye{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
+.products-cards--container .eye {    
     background-image:url('./assets/icons/eye.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-.products-cards--container .money{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-    background-image:url('./assets/icons/dollar-sign.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.products-cards--container .money {    
+    background-image:url('./assets/icons/dollar-sign.svg');    
 }
 .products-cards--container .check{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-    background-image:url('./assets/icons/check-circle.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image:url('./assets/icons/check-circle.svg');    
 }
 .product--card-title {
     margin-bottom: 15px;        

@@ -96,7 +96,16 @@ main{
     height: auto;
     background-color: var(--off-white);
 }
+/* .main-tables-container {
+    display:flex;
+    height: 350px;
+    overflow: scroll;
+    overscroll-behavior: contain;
+    scroll-snap-type: x proximity;
+    gap: 10px;
+} */
 .main-exchange-container {
+    margin: 20px;
     width: 100%;
     height: auto;
     padding-top:80px;
@@ -134,6 +143,7 @@ main{
     line-height: 1.6rem;
 }
 .main-currency-table{
+    /* scroll-snap-align: center; */
     width:70%;
     min-width: 235px;
     max-width: 500px;
@@ -229,12 +239,12 @@ main{
     line-height:2.3rem;
     color:var(--secondary-blue);
 }
-.commissions-table--container {
+.commissions-table--container {    
     width:90%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 0 auto;
+    margin: 10px;
 }
 .commissions-table--container table{
     width: 100%;
@@ -544,7 +554,4 @@ footer section {
     line-height: 18px;
     font-weight: 300;
     color: var(--just-White)
-}
-.main-tables-container {
-
 }

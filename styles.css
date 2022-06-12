@@ -96,14 +96,15 @@ main{
     height: auto;
     background-color: var(--off-white);
 }
-/* .main-tables-container {
-    display:flex;
+.main-tables-container {
+    /* display:flex; */
+    display: inline-block;
     height: 350px;
-    overflow: scroll;
+/*  overflow: scroll;
     overscroll-behavior: contain;
     scroll-snap-type: x proximity;
-    gap: 10px;
-} */
+    gap: 10px;*/
+} 
 .main-exchange-container {
     margin: 20px;
     width: 100%;
@@ -479,7 +480,7 @@ main{
     position:absolute;
     font-size: 1.2rem;
     top: 75px;
-    left: 70px;
+    left: 40px;
 }
 .plan-card--save{
     padding-top: 16px;

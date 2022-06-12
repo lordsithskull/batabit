@@ -326,6 +326,9 @@ main{
     text-align: center;    
     color: var(--just-White);
 }
+.product-detail--title p {
+    text-align: center;
+}
  .product-detail--title {
      margin-bottom: 20px;
      font-size:1.4rem;

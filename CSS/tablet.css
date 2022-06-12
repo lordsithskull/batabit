@@ -1,3 +1,7 @@
+.main-tables-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 .products-cards--container {
     display: flex;
     flex-wrap: wrap;

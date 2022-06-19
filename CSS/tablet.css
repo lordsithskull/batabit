@@ -2,13 +2,25 @@
     display: flex;
     flex-wrap: wrap;
 }
+.main-tables-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+}
 .products-cards--container {
     display: flex;
     flex-wrap: wrap;
     width: 930px;
     margin: 0 auto;
 }
+/* .bitcoin-img-container {
+    background-image: url('./assets/imgs/bitcoinbaby_large.jpg');
+} */
 .plans-container--slider {
     justify-content: center;
+    overflow-x: hidden;    
 }
 

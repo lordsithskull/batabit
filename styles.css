@@ -224,6 +224,7 @@ main{
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 .currency-table--date p{    
     color: var(--Warm-black);
@@ -284,6 +285,7 @@ main{
     padding: 8px;
     background-color: var(--soft-blue);
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 .commissions-table--date p{    
     color: var(--Warm-black);

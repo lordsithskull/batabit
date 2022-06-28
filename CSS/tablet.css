@@ -31,3 +31,9 @@
     justify-content: center;
     overflow-x: hidden;    
 }
+.faqs-cards--questions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}

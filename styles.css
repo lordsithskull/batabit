@@ -527,8 +527,9 @@ main{
 }
 .faqs-container--title h2{    
     font-size: 2.4rem;
-    line-height: 2.6rem;    
-    min-width: 290px;    
+    line-height: 2.6rem;
+    padding: 13px;
+    min-width: 290px;
     margin-top: 57px;
     height: 55px;
 }
@@ -538,9 +539,12 @@ main{
     font-weight: bold;
     margin: 13px;
     text-align: justify;
+    list-style: none;
 }
 .faqs-cards--questions {
-    width: 80%;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
 }
 .faqs--arrow {
     display:inline-block;
@@ -549,13 +553,13 @@ main{
     background-image: url('./assets/icons/arrow_down.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;    
 }
 .faqs-cards--anserwer{
     width: 100%;
     font-size: 1.4rem;
     font-weight: normal;
+    padding: 10px;
 }
 footer {
     display: flex;

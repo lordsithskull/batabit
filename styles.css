@@ -97,13 +97,12 @@ main{
     background-color: var(--off-white);
 }
 .main-tables-container {
-    /* display:flex; */
-    display: inline-block;
+    display:flex;    
     height: 350px;
-/*  overflow: scroll;
+    overflow: scroll;
     overscroll-behavior: contain;
     scroll-snap-type: x proximity;
-    gap: 10px;*/
+    gap: 10px;
 } 
 .main-exchange-container {
     margin: 20px;
@@ -144,7 +143,7 @@ main{
     line-height: 1.6rem;
 }
 .main-currency-table{
-    /* scroll-snap-align: center; */
+    scroll-snap-align: center; 
     width:70%;
     min-width: 235px;
     max-width: 500px;
@@ -224,7 +223,6 @@ main{
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 8px;
-    margin-bottom: 20px;
 }
 .currency-table--date p{    
     color: var(--Warm-black);
@@ -285,7 +283,6 @@ main{
     padding: 8px;
     background-color: var(--soft-blue);
     border-radius: 8px;
-    margin-bottom: 20px;
 }
 .commissions-table--date p{    
     color: var(--Warm-black);
@@ -559,4 +556,32 @@ footer section {
     line-height: 18px;
     font-weight: 300;
     color: var(--just-White)
+}
+.faqs-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding:5px;
+    align-items: center;
+    background-color:#dfe3e2;/* var(--just-White);*/
+
+}
+.faqs-container--title h2{    
+    font-size: 2.4rem;
+    line-height: 2.6rem;    
+    min-width: 290px;    
+    margin-top: 57px;
+    height: 55px;
+}
+.faqs-cards{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    margin: 13px;
+}
+.faqs-cards--anserwer{
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: normal;
 }

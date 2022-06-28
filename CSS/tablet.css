@@ -1,6 +1,7 @@
 .main-tables-container {
     display: flex;
     flex-wrap: wrap;
+    overflow-x: hidden;   
 }
 .main-tables-container{
     display: flex;
@@ -30,4 +31,3 @@
     justify-content: center;
     overflow-x: hidden;    
 }
-

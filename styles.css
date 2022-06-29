@@ -103,6 +103,8 @@ main{
     overscroll-behavior: contain;
     scroll-snap-type: x proximity;
     gap: 10px;
+    margin-left: 35px;
+    
 } 
 .main-exchange-container {
     margin: 20px;
@@ -540,6 +542,7 @@ main{
     margin: 13px;
     text-align: justify;
     list-style: none;
+    margin-top:20px;
 }
 .faqs-cards--questions {
     width: 100%;
@@ -602,4 +605,11 @@ footer section {
     line-height: 18px;
     font-weight: 300;
     color: var(--just-White)
+}
+@media (min-width:545px){
+    .main-tables-container
+
+    {
+        justify-content: center;
+    }
 }

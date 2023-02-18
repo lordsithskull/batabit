@@ -3,3 +3,5 @@
 *.mp4
 *.svg
 *.png
+.vscode
+.vscode/settings.json
